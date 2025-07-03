@@ -16,10 +16,10 @@ const Header = () => {
           {/* Replace with your actual logo image path */}
           {/* Assuming your logo is in public/images/puggleit-logo.png */}
           <Image
-            src="/puggleit-logo.PNG"
+            src="/images/puggleit-logo.PNG"
             alt="Puggle IT Logo"
-            width={40} // Adjust width as needed
-            height={40} // Adjust height as needed
+            width={45} // Adjust width as needed
+            height={45} // Adjust height as needed
             className="h-10 w-10 mr-2"
           />
           <span className="text-2xl font-bold">Puggle IT</span>
