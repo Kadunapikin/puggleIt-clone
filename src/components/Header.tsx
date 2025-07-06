@@ -45,10 +45,12 @@ const Header = () => {
           <Link href="/blog" className="hover:text-green-500 transition-colors">
             Blog
           </Link>
-          <Link href="/contact">
-            <button className="bg-green-500 hover:bg-green-600 text-black px-6 py-3 rounded-full font-semibold transition-colors duration-300">
-              Contact Us
-            </button>
+        </div>
+        <div>
+            <Link href="/contact">
+                <button className="bg-green-500 hover:bg-green-600 text-black w-[143px] h-[48] px-6 py-3 rounded-full font-semibold transition-colors duration-300">
+                Contact Us
+                </button>
           </Link>
         </div>
 

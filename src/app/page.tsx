@@ -1,24 +1,11 @@
 // src/app/page.tsx
 
-// Import components as we create them
-// import HeroSection from '../components/Home/HeroSection';
-// import AboutUsSection from '../components/Home/AboutUsSection';
-// import RecentWorksSection from '../components/Home/RecentWorksSection';
-// import ServicesOverview from '../components/Home/ServicesOverview';
-// import Testimonials from '../components/Home/Testimonials';
-// import CallToActionSection from '../components/Home/CallToActionSection';
-
+import HeroSection from "@/components/HeroSection";
 
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#0a0a0a] text-[#ededed]">
-      {/* Each section will be a component imported here */}
-      {/* <HeroSection /> */}
-      {/* <AboutUsSection /> */}
-      {/* <RecentWorksSection /> */}
-      {/* <ServicesOverview /> */}
-      {/* <Testimonials /> */}
-      {/* <CallToActionSection /> */}
+      <HeroSection />
 
       {/* Placeholder for now */}
       <section className="py-20 text-center">
