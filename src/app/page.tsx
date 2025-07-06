@@ -1,13 +1,15 @@
 // src/app/page.tsx
 
 import HeroSection from "@/components/HeroSection";
+import HowItWorksSection from "@/components/HowItWorksSection";
 import WhatWeDoSection from "@/components/WhatWeDoSection";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-[#0a0a0a] text-[#ededed]">
+    <main className="min-h-screen bg-[#0a0a0a] text-[#ededed] space-y-16 lg:space-y-24">
       <HeroSection />
       <WhatWeDoSection />
+      <HowItWorksSection />
 
       {/* Placeholder for now */}
       <section className="py-20 text-center">

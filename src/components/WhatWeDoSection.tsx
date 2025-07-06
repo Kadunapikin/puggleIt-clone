@@ -7,9 +7,9 @@ const WhatWeDoSection = () => {
     { src: '/images/home-page/logo-adidas.png', alt: 'Adidas Logo' },
     { src: '/images/home-page/logo-chanel.png', alt: 'Chanel Logo' },
     { src: '/images/home-page/logo-apple.png', alt: 'Apple Logo' },
-    { src: '/images/home-page/logo-autodesk.png', alt: 'Autodesk-like Logo' }, // Name adjusted for clarity
+    { src: '/images/home-page/logo-autodesk.png', alt: 'Autodesk-like Logo' },
     { src: '/images/home-page/logo-hexagons.png', alt: 'Hexagons Logo' },
-    { src: '/images/home-page/logo-clean-lines.png', alt: 'Clean Lines-like Logo' }, // Name adjusted for clarity
+    { src: '/images/home-page/logo-clean-lines.png', alt: 'Clean Lines-like Logo' },
     { src: '/images/home-page/logo-fbc.png', alt: 'FBC Logo' },
   ];
 

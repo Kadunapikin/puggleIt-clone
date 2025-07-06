@@ -4,7 +4,7 @@ import Image from 'next/image';
 const HeroSection = () => {
   return (
     // Section Container: Ensure dark background, min height, centered content
-    <section className="relative bg-[#0a0a0a] text-[#ededed] py-24 lg:py-32 px-4 overflow-hidden min-h-[583px] flex items-center justify-center">
+    <section className="relative bg-[#0a0a0a] text-[#ededed] py-18 lg:py-26 px-4 overflow-hidden min-h-[583px] flex items-center justify-center">
 
       {/* Background pattern 1 (Top Right Scribble) */}
       <div className="absolute right-0 top-0 z-0 opacity-10"
